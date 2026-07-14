@@ -6,7 +6,6 @@
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <!-- Repositories -->
-  <project name="rexprjkt/android_vendor_lineage-priv" path="vendor/lineage-priv" remote="github" />
   <project name="halcyonproject/hardware_xiaomi" path="hardware/xiaomi" remote="github" />
   <project name="halcyonproject/hardware_mediatek" path="hardware/mediatek" remote="github" />
   <project name="halcyonproject/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" />
