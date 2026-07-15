@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
-  <!-- Remotes -->
-  <remote name="github" fetch="https://github.com/" />
-  <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="xavero"
+            fetch="https://github.com/xaveroprjkt" />
 
-  <!-- Repositories -->
-  <project name="halcyonproject/hardware_xiaomi" path="hardware/xiaomi" remote="github" />
-  <project name="halcyonproject/hardware_mediatek" path="hardware/mediatek" remote="github" />
-  <project name="halcyonproject/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" />
-  <project name="rexprjkt/android_device_xiaomi_emerald-kernel" path="device/xiaomi/emerald-kernel" remote="github" />
-  <project name="xyzuniverse/proprietary_vendor_xiaomi_emerald" path="vendor/xiaomi/emerald" remote="gitlab" revision="lineage-23.2" />
-  <project name="saikrishna1504/hardware_dolby" path="hardware/dolby" remote="github" revision="sony-1.5" />
-  <project name="axionaosp/android_packages_apps_viper4androidfx" path="packages/apps/ViPER4AndroidFX" remote="github" revision="lineage-23.1" />
+    <remote name="halcyon"
+            fetch="https://github.com/halcyonproject" />
+
+    <remote name="halcyon-blobs"
+            fetch="https://git.hlcyn.org/halcyonlv" />
+
+    <remote name="codeberg"
+            fetch="https://codeberg.org/vannashcroft" />
+
+    <!-- Repos -->
+    <project path="device/xiaomi/emerald-kernel" name="device_xiaomi_emerald-kernel" remote="xavero" revision="lineage-23.2" />
+    <project path="device/xiaomi/emerald" name="device_xiaomi_emerald" remote="xavero" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="halcyon" revision="16.2" />
+    <project path="vendor/xiaomi/emerald" name="vendor_xiaomi_emerald" remote="codeberg" revision="lineage-23.2" />
+    <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="halcyon-blobs" revision="16.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="halcyon" revision="16.2" />
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="halcyon" revision="16.2" />
+
+    <!-- Other Repos -->
+    <remove-project path="external/wpa_supplicant_8" />
+    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" revision="16.2" />
 
 </manifest>
