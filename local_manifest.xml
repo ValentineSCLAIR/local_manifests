@@ -8,6 +8,9 @@
     <remote name="halcyon"
             fetch="https://github.com/halcyonproject" />
 
+    <remote name="rexprjkt"
+            fetch="https://github.com/rexprjkt" />
+    
     <remote name="halcyon-blobs"
             fetch="https://git.hlcyn.org/halcyonlv" />
 
@@ -16,8 +19,7 @@
 
     <!-- Repos -->
     <project path="device/xiaomi/emerald-kernel" name="device_xiaomi_emerald-kernel" remote="xavero" revision="lineage-23.2" />
-    <project path="device/xiaomi/emerald" name="device_xiaomi_emerald" remote="xavero" revision="lineage-23.2" />
-
+    <project path="device/xiaomi/emerald" name="device_xiaomi_emerald" remote="rexprjkt" revision="lineage-23.2" />
     <!-- Vendor -->
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="halcyon" revision="16.2" />
     <project path="vendor/xiaomi/emerald" name="vendor_xiaomi_emerald" remote="codeberg" revision="lineage-23.2" />
