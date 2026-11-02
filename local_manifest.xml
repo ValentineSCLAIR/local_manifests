@@ -12,12 +12,12 @@
   <project name="akifakif32/vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="17.0" remote="github" />
 
   <!-- Device specific vendor blobs: Tony (proprietary-files.txt of the fork is identical to his) -->
-  <project name="Tonybytelabs/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="aox" remote="github" />
-  <project name="Tonybytelabs/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" revision="aox" remote="github" />
+  <project name="varakumar02/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" revision="aox" remote="github" />
+  <project name="varakumar02/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" revision="aox" remote="github" />
 
   <!-- Dolby and OplusCamera: Tony -->
-  <project name="Tonybytelabs/vendor_oneplus_dolby" path="vendor/sony/dolby" revision="aox" remote="github" />
-  <project name="Tonybytelabs/open_oplus_camera" path="vendor/oplus/camera" revision="aox" remote="github" />
+  <project name="varakumar02/vendor_oneplus_dolby" path="vendor/sony/dolby" revision="aox" remote="github" />
+  <project name="varakumar02/open_oplus_camera" path="vendor/oplus/camera" revision="aox" remote="github" />
 
   <!-- Pixelworks interfaces: same branch as crDroid 17.0 -->
   <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" revision="lineage-24.0" remote="github" />
